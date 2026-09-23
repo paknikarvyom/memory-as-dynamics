@@ -1,4 +1,6 @@
-# Memory as Dynamics — URL Memory Encoder
+# Memory as Dynamics: A Unified Model of
+Distributed Sequence Encoding in Recurrent
+Neural Systems
 
 A single-file Python application that turns a web page into a **recurrent
 attractor + sequence memory**, implementing the model from the paper *"Memory
