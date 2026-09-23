@@ -1,11 +1,9 @@
-# Memory as Dynamics: A Unified Model of
-Distributed Sequence Encoding in Recurrent
-Neural Systems
+# Memory as Dynamics: A Unified Model of Distributed Sequence Encoding in Recurrent Neural Systems
 
 A single-file Python application that turns a web page into a **recurrent
-attractor + sequence memory**, implementing the model from the paper *"Memory
+attractor + sequence memory**, implementing the model from the paper _"Memory
 as Dynamics: A Unified Model of Distributed Sequence Encoding in Recurrent
-Neural Systems"* (Paknikar, 2026), and lets you explore it through a desktop
+Neural Systems"_ (Paknikar, 2026), and lets you explore it through a desktop
 UI built with QtPy.
 
 ```
@@ -29,12 +27,12 @@ URL → scrape → JSON record → distributed patterns → recurrent memory (Py
 
 ## Files
 
-| File | Purpose |
-|---|---|
-| `memory_as_dynamics.py` | The entire application — scraper, encoder, memory model, and QtPy UI, in one file. |
-| `README.md` | This file — quick overview and setup. |
-| `DOCUMENTATION.md` | Technical reference: architecture, classes, and how each part maps to the paper's equations. |
-| `USAGE.md` | Step-by-step instructions for running the app in GUI, headless, and self-test modes. |
+| File                    | Purpose                                                                                      |
+| ----------------------- | -------------------------------------------------------------------------------------------- |
+| `memory_as_dynamics.py` | The entire application — scraper, encoder, memory model, and QtPy UI, in one file.           |
+| `README.md`             | This file — quick overview and setup.                                                        |
+| `DOCUMENTATION.md`      | Technical reference: architecture, classes, and how each part maps to the paper's equations. |
+| `USAGE.md`              | Step-by-step instructions for running the app in GUI, headless, and self-test modes.         |
 
 ## Requirements
 
@@ -59,8 +57,8 @@ python memory_as_dynamics.py --selftest
 ```
 
 In the UI: paste a URL, choose a memory size (number of neurons `N`), click
-**"Scrape & Build Memory"**, then explore the *Attractor Recall*, *Sequence
-Replay*, and *Network Diagnostics* tabs.
+**"Scrape & Build Memory"**, then explore the _Attractor Recall_, _Sequence
+Replay_, and _Network Diagnostics_ tabs.
 
 See `USAGE.md` for a full walkthrough and `DOCUMENTATION.md` for how the
 implementation maps onto the paper.
